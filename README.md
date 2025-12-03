@@ -94,7 +94,8 @@ bash interpro_analysis_final.sh
 
 
 
-
+# take header of uhgp-faa file
+sed -i 's/ .*//' uhgp-100.faa
 
 
 
