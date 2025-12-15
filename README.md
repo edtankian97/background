@@ -114,3 +114,6 @@ PF06002.hmm
   neuS_final_auto.hmm   
    PF11477.hmm  
    pm0188_final_auto.hmm
+
+
+   seqkit grep -f CMP_ID_sequence_for_Interpro.tsv -n *.faa > CMP_ID_sequence_for_Interpro_retrieved
