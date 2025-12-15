@@ -98,6 +98,8 @@ bash interpro_analysis_final.sh
 sed -i 's/ .*//' uhgp-100.faa
 
 
+tail -n +2 complete_sialylation_interpro_filtration_final_FR_metagen_update.tsv | while read -r file; do     dir="${file%%_*}";  mv "$dir/$file" bins_paired_sialylation/; done
+
 
 #Download interproScan version 5.76-107.0. See the instructions to installation [here: https://interproscan-docs.readthedocs.io/en/v5/HowToDownload.html].
 
